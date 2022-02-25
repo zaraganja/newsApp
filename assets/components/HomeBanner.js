@@ -33,9 +33,10 @@ const HomeBanner = () => {
             headers: {
                 token: 'AFGS6838JJENCLEJD'
             },
-            responseEncoding: 'utf8',
+            //responseEncoding: 'utf8',
             validateStatus: function (status) {
                 return status >= 200 && status < 300;
+                
             },
             // transformRequest: [(data) => {
             //     data.push({
@@ -45,6 +46,8 @@ const HomeBanner = () => {
             //     return data
             // }],
             // data: [{ username: "zara ganji" }]
+
+            data
         })
             .then((res) => console.log(res))
             .then((err) => console.log(err))

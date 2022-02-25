@@ -16,7 +16,7 @@ const DrawerContent = (props) => {
                                 uri : 'https://www.clipartmax.com/png/middle/248-2487966_matthew-man-avatar-icon-png.png'
                             }} size={50}/>
                             <View style={{marginLeft : 15, flexDirection : 'column'}}>
-                                <Title style={styles.title}>zara ganji</Title>
+                                <Title style={styles.title}>zara ganjii</Title>
                                 <Caption style={styles.caption}>@zaraganji</Caption>
                             </View>
                         </View>
